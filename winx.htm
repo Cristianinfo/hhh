@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian, indovina cosa sarebbe realmente</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPDcC4rw0TU-q0RoXASn42_2zTjIQGoqpeEQ&s'); /* Sostituisci con un URL valido dello sfondo delle Winx */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 3em;
+            animation: color-change 3s infinite;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            animation: fade-in 2s ease-in-out;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .buttons {
+            margin: 50px 0;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+            animation: bounce 2s infinite;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        @keyframes color-change {
+            0% { color: #ff00ff; }
+            50% { color: #00ffff; }
+            100% { color: #ff00ff; }
+        }
+        @keyframes fade-in {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Cristian, indovina cosa sarebbe realmente</h1>
+    <p>Prova ad indovinare</p>
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='https://youtu.be/vdowdxwwtoU?si=KJgnEhdZU_ETID9j'">Winx</button>
+        <button class="btn" onclick="window.location.href='https://youtu.be/UVt2s2mITF8?si=D48_uvACe5S3DCAL'">Cane</button>
+    </div>
+</body>
+</html>
